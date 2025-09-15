@@ -1,0 +1,1065 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAddNewPaymentResource1.Text" xml:space="preserve">
+    <value>إضافة الدفع</value>
+  </data>
+  <data name="btnAddNewPaymentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddPurposeResource1.Text" xml:space="preserve">
+    <value>إضافة تبرع</value>
+  </data>
+  <data name="btnAddPurposeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelNewDonationResource1.Text" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="btnCancelNewDonationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelNewPaymentResource1.Text" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="btnCancelNewPaymentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCreateResource1.Text" xml:space="preserve">
+    <value>حفظ المتبرع</value>
+  </data>
+  <data name="btnCreateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPrintResource1.Text" xml:space="preserve">
+    <value>(F8)حفظ سند القبض</value>
+  </data>
+  <data name="btnPrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnResetResource1.Text" xml:space="preserve">
+    <value> (F2)إعادة الوضع</value>
+  </data>
+  <data name="btnResetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveNewDonationResource1.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="btnSaveNewDonationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveNewPaymentResource1.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="btnSaveNewPaymentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSearchResource1.Text" xml:space="preserve">
+    <value> (F3) بحث</value>
+  </data>
+  <data name="btnSearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CommandFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CommandFieldResource1.CancelText" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="CommandFieldResource1.DeleteText" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="CommandFieldResource1.EditText" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="CommandFieldResource1.FooterText" xml:space="preserve">
+    <value>المجموع</value>
+  </data>
+  <data name="CommandFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CommandFieldResource1.InsertText" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="CommandFieldResource1.NewText" xml:space="preserve">
+    <value>جديد</value>
+  </data>
+  <data name="CommandFieldResource1.SelectText" xml:space="preserve">
+    <value>أختار</value>
+  </data>
+  <data name="CommandFieldResource1.UpdateText" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="CommandFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CommandFieldResource2.CancelText" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="CommandFieldResource2.DeleteText" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="CommandFieldResource2.EditText" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="CommandFieldResource2.FooterText" xml:space="preserve">
+    <value>المجموع</value>
+  </data>
+  <data name="CommandFieldResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CommandFieldResource2.InsertText" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="CommandFieldResource2.NewText" xml:space="preserve">
+    <value>جديد</value>
+  </data>
+  <data name="CommandFieldResource2.SelectText" xml:space="preserve">
+    <value>أختار</value>
+  </data>
+  <data name="CommandFieldResource2.UpdateText" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="ddlBankEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlBankResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlCurrencyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDonorTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDontationCatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlNewDonationPurposeTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlPaymentMethodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSearchTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grvDonationDistResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grvDonationDistResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grvDonationDistResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grvPaymentsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grvPaymentsResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grvPaymentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccountNumberItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAccountNumberResource1.Text" xml:space="preserve">
+    <value>رقم الحساب</value>
+  </data>
+  <data name="lblAccountNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddNewDonationResource1.Text" xml:space="preserve">
+    <value>إضافة تبرع جديد</value>
+  </data>
+  <data name="lblAddNewDonationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddPaymentHeaderResource1.Text" xml:space="preserve">
+    <value>إضافة دفع جديد</value>
+  </data>
+  <data name="lblAddPaymentHeaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArabicNameResource1.Text" xml:space="preserve">
+    <value>الأسم باللغة العربية</value>
+  </data>
+  <data name="lblArabicNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthNumberResource1.Text" xml:space="preserve">
+    <value>رقم المرجع</value>
+  </data>
+  <data name="lblAuthNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAuthorizationNumberItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBankItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBankResource1.Text" xml:space="preserve">
+    <value>البنك</value>
+  </data>
+  <data name="lblBankResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCivilIDResource1.Text" xml:space="preserve">
+    <value>رقم المدني</value>
+  </data>
+  <data name="lblCivilIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCurrencyResource1.Text" xml:space="preserve">
+    <value>العملة</value>
+  </data>
+  <data name="lblCurrencyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDonationCatResource1.Text" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="lblDonationCatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDonationHeaderResource1.Text" xml:space="preserve">
+    <value>تبرعات</value>
+  </data>
+  <data name="lblDonationHeaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDonationNotesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDonationNotesResource2.Text" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="lblDonationNotesResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDonationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDonationResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDonationValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDonationValueResource2.Text" xml:space="preserve">
+    <value>قيمة</value>
+  </data>
+  <data name="lblDonationValueResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDonerTypeResource1.Text" xml:space="preserve">
+    <value>نوع المتبرع</value>
+  </data>
+  <data name="lblDonerTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDonorInfoHeaderResource1.Text" xml:space="preserve">
+    <value>معلومات المتبرع</value>
+  </data>
+  <data name="lblDonorInfoHeaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmptyDonationDistResource1.Text" xml:space="preserve">
+    <value>لا يوجد تبرعات</value>
+  </data>
+  <data name="lblEmptyDonationDistResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnglishNameResource1.Text" xml:space="preserve">
+    <value>الأسم باللغة الانجليزية</value>
+  </data>
+  <data name="lblEnglishNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMobileResource1.Text" xml:space="preserve">
+    <value>رقم موبيل</value>
+  </data>
+  <data name="lblMobileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewDonationPurposeTypeResource1.Text" xml:space="preserve">
+    <value>نوع التبرع</value>
+  </data>
+  <data name="lblNewDonationPurposeTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotesResource1.Text" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="lblNotesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaymentAmountItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaymentAmountResource1.Text" xml:space="preserve">
+    <value>قيمة</value>
+  </data>
+  <data name="lblPaymentAmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaymentEmptyResource1.Text" xml:space="preserve">
+    <value>لا يوجد مدفوعات</value>
+  </data>
+  <data name="lblPaymentEmptyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaymentMethodEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaymentMethodHeaderResource1.Text" xml:space="preserve">
+    <value>طرق الدفع</value>
+  </data>
+  <data name="lblPaymentMethodHeaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaymentMethodItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaymentMethodResource1.Text" xml:space="preserve">
+    <value>طريقة الدفع</value>
+  </data>
+  <data name="lblPaymentMethodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPhoneResource1.Text" xml:space="preserve">
+    <value>رقم تلفون الرئيسي</value>
+  </data>
+  <data name="lblPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReceiptDateResource1.Text" xml:space="preserve">
+    <value>تاريخ</value>
+  </data>
+  <data name="lblReceiptDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReceiptIDResource1.Text" xml:space="preserve">
+    <value>رقم سند القبض الالى</value>
+  </data>
+  <data name="lblReceiptIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecieptHeaderResource1.Text" xml:space="preserve">
+    <value>سند القبض</value>
+  </data>
+  <data name="lblRecieptHeaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecieptSerialItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchHeaderResource1.Text" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="lblSearchHeaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchResult1Resource1.Text" xml:space="preserve">
+    <value>Sorry, No Donor either Reciept Found.</value>
+  </data>
+  <data name="lblSearchResult1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchResult2Resource1.Text" xml:space="preserve">
+    <value>You can create new Donor profile or search again</value>
+  </data>
+  <data name="lblSearchResult2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>الرقم</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>مؤسسة خيرية</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>أخرى</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>رجاء أختيار العملة</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>رجاء إختيار نوع التبرع</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>رجاء إختيار نوع التبرع</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>رجاء إختيار نوع التبرع</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>رجاء إختيار البنك</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>رقم المدني</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>رقم تلفون الرئيسي</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>رقم الموبيل</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>الأسم العربي</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>الأسم الانجليزي</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>رقم سند القبض</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>شخص</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>شركة</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>العون المباشر - التحصيل</value>
+  </data>
+  <data name="pnlAddDonatinoResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddDonatinoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddNewPaymentResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddNewPaymentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlDonorResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlDonorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlNoResultResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlNoResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPaymentResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPaymentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPurposeResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPurposeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlReceiptResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlReceiptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSearchResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlSearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value> نوع التبرع</value>
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value>قيمة</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value>طريقة الدفع</value>
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value>القيمة</value>
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value>البنك</value>
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value>رقم الحساب</value>
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value>رقم المرجع</value>
+  </data>
+  <data name="TemplateFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAccountNumberEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAccountNumberResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAccountNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtArabicNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtArabicNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAuthNumberResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAuthNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAuthorizationNumberEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCivilIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCivilIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDonationNotesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDonationNotesResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDonationNotesResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDonationValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDonationValueResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDonationValueResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEnglishNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEnglishNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMobileResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMobileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNotesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNotesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPaymentAmountEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPaymentAmountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPaymentAmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPhoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPhoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReceiptDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReceiptDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReceiptIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReceiptIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecieptSerialEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSearchResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSearchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageDir" xml:space="preserve">
+    <value>rtl</value>
+  </data>
+  <data name="lblReceiptManaualDResource1.Text" xml:space="preserve">
+    <value>رقم سند القبض اليدوي</value>
+  </data>
+  <data name="btnOpenResource1.Text" xml:space="preserve">
+    <value>ملف المتبرع</value>
+  </data>
+  <data name="ddlCurrencyResource1.DataTextField" xml:space="preserve">
+    <value>currency_descrar</value>
+  </data>
+  <data name="ddlDontationCatResource1.DataTextField" xml:space="preserve">
+    <value>donation_descrar</value>
+  </data>
+  <data name="lblDonorIDResource1.Text" xml:space="preserve">
+    <value>رقم</value>
+  </data>
+  <data name="lblBrandResource1.Text" xml:space="preserve">
+    <value>العون المباشر</value>
+  </data>
+  <data name="lnkCollectionResource1.Text" xml:space="preserve">
+    <value>تحصيل</value>
+  </data>
+  <data name="lnkDeductionResource1.Text" xml:space="preserve">
+    <value>أستقطاعات</value>
+  </data>
+  <data name="lnkDonorProfileResource1.Text" xml:space="preserve">
+    <value>ملف المتبرع</value>
+  </data>
+  <data name="TemplateFieldResource10.HeaderText" xml:space="preserve">
+    <value>رقم</value>
+  </data>
+  <data name="TemplateFieldResource11.HeaderText" xml:space="preserve">
+    <value>الأسم باللغة العربية</value>
+  </data>
+  <data name="TemplateFieldResource12.HeaderText" xml:space="preserve">
+    <value>الأسم باللغة الانجليزية</value>
+  </data>
+  <data name="TemplateFieldResource13.HeaderText" xml:space="preserve">
+    <value>الرقم المدني</value>
+  </data>
+  <data name="TemplateFieldResource14.HeaderText" xml:space="preserve">
+    <value>رقم تلفون الرئيسي</value>
+  </data>
+  <data name="btnCloseSearchResource1.Text" xml:space="preserve">
+    <value>أغلق</value>
+  </data>
+  <data name="lblTotalDonationResource1.Text" xml:space="preserve">
+    <value>مجموع التبرعات</value>
+  </data>
+  <data name="lblTotalWaqfResource1.Text" xml:space="preserve">
+    <value>مجموع الوقف</value>
+  </data>
+  <data name="AddResource1.Text" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="CancelResource1.Text" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="DeleteResource1.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="EditResource1.Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="TemplateFieldResource15.HeaderText" xml:space="preserve">
+    <value>البلد</value>
+  </data>
+  <data name="UpdateResource1.Text" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="lnkFirstScreenResource1.text" xml:space="preserve">
+    <value>الشاشة الرئيسية</value>
+  </data>
+  <data name="ddlcampaignResource2.Text" xml:space="preserve">
+    <value>الرجاء اختيار حملة</value>
+  </data>
+  <data name="lblCampaignResource1.text" xml:space="preserve">
+    <value>حملة</value>
+  </data>
+  <data name="lbltotStanInstructResource1.text" xml:space="preserve">
+    <value> مجموع  أستقطاعات  </value>
+  </data>
+  <data name="lblinfavourofResource1.text" xml:space="preserve">
+    <value>لصالح من</value>
+  </data>
+  <data name="lblDonationGroupResource1.Text" xml:space="preserve">
+    <value>مجموعة</value>
+  </data>
+  <data name="lblPartialPaymentResource1.Text" xml:space="preserve">
+    <value>دفع جزء</value>
+  </data>
+  <data name="ddlDontationGroupResource1.DataTextField" xml:space="preserve">
+    <value>group_desc_ara</value>
+  </data>
+  <data name="btnCloseModalResource1.Text" xml:space="preserve">
+    <value>جديد</value>
+  </data>
+  <data name="TemplateFieldResource16.HeaderText" xml:space="preserve">
+    <value>دفعة</value>
+  </data>
+  <data name="TemplateFieldResource17.HeaderText" xml:space="preserve">
+    <value>رقم</value>
+  </data>
+  <data name="TemplateFieldResource18.HeaderText" xml:space="preserve">
+    <value>الغرض</value>
+  </data>
+  <data name="TemplateFieldResource19.HeaderText" xml:space="preserve">
+    <value>تاريخ</value>
+  </data>
+  <data name="TemplateFieldResource20.HeaderText" xml:space="preserve">
+    <value>قيمة</value>
+  </data>
+  <data name="TemplateFieldResource21.HeaderText" xml:space="preserve">
+    <value>المتبقي</value>
+  </data>
+  <data name="ddlcampaignResource1.DataTextField" xml:space="preserve">
+    <value>campaign_descrar</value>
+  </data>
+  <data name="btnCancelSaveResource1.text" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="btnConfirmSaveResource1.text" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="lblConfirmationResource1.Text" xml:space="preserve">
+    <value>هل أنت متأكد من البيانات و تريد حفظ سند القبض؟</value>
+  </data>
+  <data name="lblPrintConfirmationResource1.text" xml:space="preserve">
+    <value>هل تريد طباعة سند القبض؟</value>
+  </data>
+  <data name="lblPartialHeaderResource1.Text" xml:space="preserve">
+    <value>تبرعات غير مدفوعة بالكامل</value>
+  </data>
+  <data name="lblPrintConfirmationHeaderResource1.Text" xml:space="preserve">
+    <value>تأكيد</value>
+  </data>
+  <data name="lblSaveConfirmationHeaderResource1.Text" xml:space="preserve">
+    <value>تأكيد</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="civilIdValidatorResource1.Text" xml:space="preserve">
+    <value>رقم بطاقة غير صحيح</value>
+  </data>
+  <data name="lbtnCultureResource1.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="lblDifferenceResource1.Text" xml:space="preserve">
+    <value>الفرق</value>
+  </data>
+  <data name="lblTotalDonationHeaderResource1.Text" xml:space="preserve">
+    <value>تفاصيل التبرعات</value>
+  </data>
+  <data name="lblTotalWaqfHeaderResource1.Text" xml:space="preserve">
+    <value>تفاصيل الوقف</value>
+  </data>
+  <data name="TemplateFieldResource22.HeaderText" xml:space="preserve">
+    <value>رقم سند القبض</value>
+  </data>
+  <data name="TemplateFieldResource23.HeaderText" xml:space="preserve">
+    <value>رقم اليدوي لسند القبض</value>
+  </data>
+  <data name="TemplateFieldResource24.HeaderText" xml:space="preserve">
+    <value>تاريخ</value>
+  </data>
+  <data name="TemplateFieldResource25.HeaderText" xml:space="preserve">
+    <value>قيمة</value>
+  </data>
+  <data name="TemplateFieldResource26.HeaderText" xml:space="preserve">
+    <value>عملة</value>
+  </data>
+  <data name="TemplateFieldResource30.HeaderText" xml:space="preserve">
+    <value>رقم الأستقطاع البنكي</value>
+  </data>
+  <data name="lblLoadingMessageResource1.Text" xml:space="preserve">
+    <value>جاري التحميل......</value>
+  </data>
+  <data name="btnEnableDonorProfileResource1.Text" xml:space="preserve">
+    <value>متبرع جديد</value>
+  </data>
+  <data name="btnRePrintResource1.Text" xml:space="preserve">
+    <value>إعادة طباعة سند القبض</value>
+  </data>
+  <data name="lblRePrintConfirmationHeaderResource1.Text" xml:space="preserve">
+    <value>إعادة طباعة سند القبض</value>
+  </data>
+  <data name="lblRePrintConfirmationResource1.Text" xml:space="preserve">
+    <value>هل تريد إعادة طباعة سند القبض؟</value>
+  </data>
+  <data name="TemplateFieldResource31.HeaderText" xml:space="preserve">
+    <value>عدد</value>
+  </data>
+  <data name="TemplateFieldResource32.HeaderText" xml:space="preserve">
+    <value>مجموع</value>
+  </data>
+  <data name="ListItemWaqfcolResource1.text" xml:space="preserve">
+    <value>صدقة</value>
+  </data>
+  <data name="ListItemWaqfcolResource2.Text" xml:space="preserve">
+    <value>زكاة</value>
+  </data>
+  <data name="ListItemWaqfcolResource3.Text" xml:space="preserve">
+    <value>وقف</value>
+  </data>
+  <data name="ArabicNameWarning" xml:space="preserve">
+    <value>الاسم موجود</value>
+  </data>
+  <data name="EnglishNameWarning" xml:space="preserve">
+    <value>Name Exists</value>
+  </data>
+  <data name="btnPratialPaymentsResource1.Text" xml:space="preserve">
+    <value>جزئية مدفوعات</value>
+  </data>
+  <data name="chkActiveChkRes.text" xml:space="preserve">
+    <value>تفعيل البحث</value>
+  </data>
+  <data name="lblTitleRes.text" xml:space="preserve">
+    <value>لقب</value>
+  </data>
+  <data name="lbl_ExchRateResc1.Text" xml:space="preserve">
+    <value>سعر الصرف</value>
+  </data>
+  <data name="btnVoidResource1.Text" xml:space="preserve">
+    <value>الغاء</value>
+  </data>
+  <data name="lblTotalResource1.Text" xml:space="preserve">
+    <value>  إجمالي ك.د</value>
+  </data>
+  <data name="lblTotalResourceCurrency.Text" xml:space="preserve">
+    <value> إجمالي بالعملة</value>
+  </data>
+  <data name="lbl_KDamtResouce.Text" xml:space="preserve">
+    <value>إجمالي ك.د</value>
+  </data>
+  <data name="lbldeleteConfirmationResource1.Text" xml:space="preserve">
+    <value>هل تريد الغاء هذا الإيصال؟</value>
+  </data>
+</root>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetReceiptDirectAid" targetNamespace="http://tempuri.org/DataSetReceiptDirectAid.xsd" xmlns:mstns="http://tempuri.org/DataSetReceiptDirectAid.xsd" xmlns="http://tempuri.org/DataSetReceiptDirectAid.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="Con_1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Con_1 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.Con_1.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="Cn1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Cn1 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.Cn1.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_2TableAdapter" GeneratorDataComponentClassName="View_2TableAdapter" Name="View_2" UserDataComponentName="View_2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Cn1 (Web.config)" DbObjectName="charitysoft.dbo.View_2" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT donation_descrar, nat_descrar, donation_value, qty, line_amount, reciept_num, donor_id, donor_namear, donor_civilid, reciept_date, currency_code, primary_phone, currency_descrar FROM dbo.View_2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="donation_descrar" DataSetColumn="donation_descrar" />
+              <Mapping SourceColumn="nat_descrar" DataSetColumn="nat_descrar" />
+              <Mapping SourceColumn="donation_value" DataSetColumn="donation_value" />
+              <Mapping SourceColumn="qty" DataSetColumn="qty" />
+              <Mapping SourceColumn="line_amount" DataSetColumn="line_amount" />
+              <Mapping SourceColumn="reciept_num" DataSetColumn="reciept_num" />
+              <Mapping SourceColumn="donor_id" DataSetColumn="donor_id" />
+              <Mapping SourceColumn="donor_namear" DataSetColumn="donor_namear" />
+              <Mapping SourceColumn="donor_civilid" DataSetColumn="donor_civilid" />
+              <Mapping SourceColumn="reciept_date" DataSetColumn="reciept_date" />
+              <Mapping SourceColumn="currency_code" DataSetColumn="currency_code" />
+              <Mapping SourceColumn="primary_phone" DataSetColumn="primary_phone" />
+              <Mapping SourceColumn="currency_descrar" DataSetColumn="currency_descrar" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetReceiptDirectAid" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSetReceiptDirectAid" msprop:Generator_UserDSName="DataSetReceiptDirectAid">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_2" msprop:Generator_TableClassName="View_2DataTable" msprop:Generator_TableVarName="tableView_2" msprop:Generator_RowChangedName="View_2RowChanged" msprop:Generator_TablePropName="View_2" msprop:Generator_RowDeletingName="View_2RowDeleting" msprop:Generator_RowChangingName="View_2RowChanging" msprop:Generator_RowEvHandlerName="View_2RowChangeEventHandler" msprop:Generator_RowDeletedName="View_2RowDeleted" msprop:Generator_RowClassName="View_2Row" msprop:Generator_UserTableName="View_2" msprop:Generator_RowEvArgName="View_2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="donation_descrar" msprop:Generator_ColumnVarNameInTable="columndonation_descrar" msprop:Generator_ColumnPropNameInRow="donation_descrar" msprop:Generator_ColumnPropNameInTable="donation_descrarColumn" msprop:Generator_UserColumnName="donation_descrar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nat_descrar" msprop:Generator_ColumnVarNameInTable="columnnat_descrar" msprop:Generator_ColumnPropNameInRow="nat_descrar" msprop:Generator_ColumnPropNameInTable="nat_descrarColumn" msprop:Generator_UserColumnName="nat_descrar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="donation_value" msprop:Generator_ColumnVarNameInTable="columndonation_value" msprop:Generator_ColumnPropNameInRow="donation_value" msprop:Generator_ColumnPropNameInTable="donation_valueColumn" msprop:Generator_UserColumnName="donation_value" type="xs:decimal" minOccurs="0" />
+              <xs:element name="qty" msprop:Generator_ColumnVarNameInTable="columnqty" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_UserColumnName="qty" type="xs:decimal" minOccurs="0" />
+              <xs:element name="line_amount" msprop:Generator_ColumnVarNameInTable="columnline_amount" msprop:Generator_ColumnPropNameInRow="line_amount" msprop:Generator_ColumnPropNameInTable="line_amountColumn" msprop:Generator_UserColumnName="line_amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="reciept_num" msprop:Generator_ColumnVarNameInTable="columnreciept_num" msprop:Generator_ColumnPropNameInRow="reciept_num" msprop:Generator_ColumnPropNameInTable="reciept_numColumn" msprop:Generator_UserColumnName="reciept_num" type="xs:int" />
+              <xs:element name="donor_id" msprop:Generator_ColumnVarNameInTable="columndonor_id" msprop:Generator_ColumnPropNameInRow="donor_id" msprop:Generator_ColumnPropNameInTable="donor_idColumn" msprop:Generator_UserColumnName="donor_id" type="xs:int" />
+              <xs:element name="donor_namear" msprop:Generator_ColumnVarNameInTable="columndonor_namear" msprop:Generator_ColumnPropNameInRow="donor_namear" msprop:Generator_ColumnPropNameInTable="donor_namearColumn" msprop:Generator_UserColumnName="donor_namear" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="180" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="donor_civilid" msprop:Generator_ColumnVarNameInTable="columndonor_civilid" msprop:Generator_ColumnPropNameInRow="donor_civilid" msprop:Generator_ColumnPropNameInTable="donor_civilidColumn" msprop:Generator_UserColumnName="donor_civilid" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="reciept_date" msprop:Generator_ColumnVarNameInTable="columnreciept_date" msprop:Generator_ColumnPropNameInRow="reciept_date" msprop:Generator_ColumnPropNameInTable="reciept_dateColumn" msprop:Generator_UserColumnName="reciept_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="currency_code" msprop:Generator_ColumnVarNameInTable="columncurrency_code" msprop:Generator_ColumnPropNameInRow="currency_code" msprop:Generator_ColumnPropNameInTable="currency_codeColumn" msprop:Generator_UserColumnName="currency_code" type="xs:short" minOccurs="0" />
+              <xs:element name="primary_phone" msprop:Generator_ColumnVarNameInTable="columnprimary_phone" msprop:Generator_ColumnPropNameInRow="primary_phone" msprop:Generator_ColumnPropNameInTable="primary_phoneColumn" msprop:Generator_UserColumnName="primary_phone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="currency_descrar" msprop:Generator_ColumnVarNameInTable="columncurrency_descrar" msprop:Generator_ColumnPropNameInRow="currency_descrar" msprop:Generator_ColumnPropNameInTable="currency_descrarColumn" msprop:Generator_UserColumnName="currency_descrar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

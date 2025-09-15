@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetMyBoolean">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyConName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MyQuery" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMyBooleanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetMyBooleanResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMyScalar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyConName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MyQuery" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMyScalarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMyScalarResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMyData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyConName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MyQuery" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMyDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMyDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestResultSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyConName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TxtSpSQL" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestResultSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestResultSetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecSpResultSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyConName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TxtSpSQL" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="MyCmdType" type="tns:CommandType" />
+            <s:element minOccurs="0" maxOccurs="1" name="ParamsVal" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="CommandType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Text" />
+          <s:enumeration value="StoredProcedure" />
+          <s:enumeration value="TableDirect" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ExecSpResultSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecSpResultSetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecSp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyConName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TxtSpSQL" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="MyCmdType" type="tns:CommandType" />
+            <s:element minOccurs="0" maxOccurs="1" name="ParamsVal" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecSpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ExecSpResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestListOfValues">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyList" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestListOfValuesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TestListOfValuesResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteNonQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyConName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UsrPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TxtSpSQL" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteNonQueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ExecuteNonQueryResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetMyBooleanSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMyBoolean" />
+  </wsdl:message>
+  <wsdl:message name="GetMyBooleanSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMyBooleanResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMyScalarSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMyScalar" />
+  </wsdl:message>
+  <wsdl:message name="GetMyScalarSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMyScalarResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMyDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMyData" />
+  </wsdl:message>
+  <wsdl:message name="GetMyDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMyDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestResultSetSoapIn">
+    <wsdl:part name="parameters" element="tns:TestResultSet" />
+  </wsdl:message>
+  <wsdl:message name="TestResultSetSoapOut">
+    <wsdl:part name="parameters" element="tns:TestResultSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecSpResultSetSoapIn">
+    <wsdl:part name="parameters" element="tns:ExecSpResultSet" />
+  </wsdl:message>
+  <wsdl:message name="ExecSpResultSetSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecSpResultSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecSpSoapIn">
+    <wsdl:part name="parameters" element="tns:ExecSp" />
+  </wsdl:message>
+  <wsdl:message name="ExecSpSoapOut">
+    <wsdl:part name="parameters" element="tns:ExecSpResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestListOfValuesSoapIn">
+    <wsdl:part name="parameters" element="tns:TestListOfValues" />
+  </wsdl:message>
+  <wsdl:message name="TestListOfValuesSoapOut">
+    <wsdl:part name="parameters" element="tns:TestListOfValuesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteNonQuerySoapIn">
+    <wsdl:part name="parameters" element="tns:ExecuteNonQuery" />
+  </wsdl:message>
+  <wsdl:message name="ExecuteNonQuerySoapOut">
+    <wsdl:part name="parameters" element="tns:ExecuteNonQueryResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="GetMyBoolean">
+      <wsdl:input message="tns:GetMyBooleanSoapIn" />
+      <wsdl:output message="tns:GetMyBooleanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMyScalar">
+      <wsdl:input message="tns:GetMyScalarSoapIn" />
+      <wsdl:output message="tns:GetMyScalarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMyData">
+      <wsdl:input message="tns:GetMyDataSoapIn" />
+      <wsdl:output message="tns:GetMyDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestResultSet">
+      <wsdl:input message="tns:TestResultSetSoapIn" />
+      <wsdl:output message="tns:TestResultSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecSpResultSet">
+      <wsdl:input message="tns:ExecSpResultSetSoapIn" />
+      <wsdl:output message="tns:ExecSpResultSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecSp">
+      <wsdl:input message="tns:ExecSpSoapIn" />
+      <wsdl:output message="tns:ExecSpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestListOfValues">
+      <wsdl:input message="tns:TestListOfValuesSoapIn" />
+      <wsdl:output message="tns:TestListOfValuesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQuery">
+      <wsdl:input message="tns:ExecuteNonQuerySoapIn" />
+      <wsdl:output message="tns:ExecuteNonQuerySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMyBoolean">
+      <soap:operation soapAction="http://tempuri.org/GetMyBoolean" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMyScalar">
+      <soap:operation soapAction="http://tempuri.org/GetMyScalar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMyData">
+      <soap:operation soapAction="http://tempuri.org/GetMyData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestResultSet">
+      <soap:operation soapAction="http://tempuri.org/TestResultSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecSpResultSet">
+      <soap:operation soapAction="http://tempuri.org/ExecSpResultSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecSp">
+      <soap:operation soapAction="http://tempuri.org/ExecSp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestListOfValues">
+      <soap:operation soapAction="http://tempuri.org/TestListOfValues" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQuery">
+      <soap:operation soapAction="http://tempuri.org/ExecuteNonQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMyBoolean">
+      <soap12:operation soapAction="http://tempuri.org/GetMyBoolean" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMyScalar">
+      <soap12:operation soapAction="http://tempuri.org/GetMyScalar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMyData">
+      <soap12:operation soapAction="http://tempuri.org/GetMyData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestResultSet">
+      <soap12:operation soapAction="http://tempuri.org/TestResultSet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecSpResultSet">
+      <soap12:operation soapAction="http://tempuri.org/ExecSpResultSet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecSp">
+      <soap12:operation soapAction="http://tempuri.org/ExecSp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestListOfValues">
+      <soap12:operation soapAction="http://tempuri.org/TestListOfValues" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteNonQuery">
+      <soap12:operation soapAction="http://tempuri.org/ExecuteNonQuery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://emadmokhtarnb/MyWebServices/WS_GetData.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://emadmokhtarnb/MyWebServices/WS_GetData.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,152 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false" CodeBehind="MainData.master.vb" Inherits="DirectAid.MainData" %>
+
+<%@ Register Assembly="DevExpress.Web.v25.1, Version=25.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx1" %>
+<%@ Register Assembly="DevExpress.Web.v25.1, Version=25.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web" TagPrefix="dx" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <% If DesignMode Then%>
+    <script src="Scripts/ASPxScriptIntelliSense.js" type="text/javascript"></script>
+    <% End If%>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+
+
+    <table width="100%">
+        <tr>
+            <td style="width: 25%;" valign="top">
+                <dx:ASPxNavBar runat="server" ID="ASPxNavBar1" Width="100%" ClientInstanceName="ASPxNavBar1" EnableAnimation="True" EnableCallbackAnimation="True" EnableCallBacks="True" EnableClientSideAPI="True" RightToLeft="True" SaveStateToCookies="True">
+                    <Groups>
+                        <dx:NavBarGroup Text="بيانات عامه">
+                            <Items>
+                                <dx:NavBarItem NavigateUrl="~/MainData/UIHobby.aspx" Text="الهوايات و الانشطة">
+                                </dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="~/MainData/UIArea.aspx" Text="مناطق الكويت">
+                                </dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/AcacdemicYearCodesDef.aspx" Text="السنوات الدراسيه"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/ApplicationAttachTypeDef.aspx" Text="انواع المرفقات"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/AreaCodesDef.aspx" Text="المناطق"></dx:NavBarItem>
+
+                                <dx:NavBarItem NavigateUrl="MainData/BanksListDef.aspx" Text="البنوك"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/BankBranchesDef.aspx" Text="افرع البنوك"></dx:NavBarItem>
+
+
+                                <dx:NavBarItem NavigateUrl="MainData/CampaignDef.aspx" Text="الحملات"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/CentersDef.aspx" Text="المراكز"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/CityDef.aspx" Text="المدن"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/ClassesDef.aspx" Text="الفصول"></dx:NavBarItem>
+
+                                <dx:NavBarItem NavigateUrl="MainData/DonationsGroupDef.aspx" Text="مجموعات التبرعات"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/GeneralAssessDef.aspx" Text="التقدير العام"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/GradesCodesDef.aspx" Text="المراحل الدراسيه"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/JobsDef.aspx" Text="الوظائف"></dx:NavBarItem>
+
+                                <dx:NavBarItem NavigateUrl="MainData/LangDef.aspx" Text="اللغات"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/OrganizationDef.aspx" Text="الهيئات"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/OrphanageDef.aspx" Text="اماكن الرعايه"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/OrphansResidencePlacesDef.aspx" Text="اماكن الاقامه"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/QuranVerseKnowDef.aspx" Text="يحفظ من القرآن"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/ReasonDef.aspx" Text="الاسباب"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/ReligionDef.aspx" Text="الديانات"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/SalutDef.aspx" Text="الالقاب"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/SchoolsQuickDef.aspx" Text="المؤسسات التعليميه"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/StatReasonDef.aspx" Text="حالات الاستقطاع"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/StudQualifTypeCodesDef.aspx" Text="المؤهلات الدراسيه"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/WorkLocationsDef.aspx" Text="اماكن العمل"></dx:NavBarItem>
+
+                                <%--<dx:NavBarItem NavigateUrl="Projects/UIGenericIDName.aspx?TableName=DonorImportance" Text="اهميه المتبرع"></dx:NavBarItem>--%>
+                            </Items>
+                        </dx:NavBarGroup>
+                        <dx:NavBarGroup Text="التعليميه">
+                            <Items>
+                                <dx:NavBarItem NavigateUrl="MainData/Education/EducFacultiesDef.aspx" Text="الكليات"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="~/MainData/Education/EducScholarshipTypesDef.aspx" Text="انواع المنح الدراسية">
+                                </dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="~/MainData/Education/EducScholarshipPatternsDef.aspx" Text="انماط المنح الدراسية">
+                                </dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="~/MainData/Education/EducScholarshipStatusDef.aspx" Text="حالات المنح الدراسية">
+                                </dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="~/MainData/Education/FeesCodesDef.aspx" Text="انواع المصروفات الدراسية">
+                                </dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="~/MainData/Education/ProfTypesCodesDef.aspx" Text="التخصصات">
+                                </dx:NavBarItem>
+                            </Items>
+                        </dx:NavBarGroup>
+                        <dx:NavBarGroup Text="الصحيه">
+                            <Items>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthActivitiesDef.aspx" Text="الانشطه"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthComponentsPreparationsDef.aspx" Text="التجهيزات و التحضيرات"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthConvoyTypesDef.aspx" Text="انواع القوافل"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthDeclarationsDef.aspx" Text="البيان"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthDiseasesDef.aspx" Text="انواع الامراض"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthExpensesDef.aspx" Text="انواع المصروفات"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthFacilitationsDef.aspx" Text="التيسير"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthInstitutionsLicenseDef.aspx" Text="انواع التراخيص"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthInstitutionsStatusDef.aspx" Text="حالات المؤسسات الصحيه"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthInstitutionsTypesDef.aspx" Text="انواع المؤسسات الصحيه"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthMedicinesDef.aspx" Text="العلاج"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthNearbyDef.aspx" Text="القرب من المركز"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="MainData/Health/HealthPowerSourceDef.aspx" Text="مصادر الطاقه"></dx:NavBarItem>
+                            </Items>
+                        </dx:NavBarGroup>
+                        <dx:NavBarGroup Text="المشاريع">
+                            <Items>
+                                <dx:NavBarItem NavigateUrl="Projects/UIGenericIDName.aspx?TableName=BeneficiaryOrg" Text="الجهه المستفيده"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="Projects/UIGenericIDName.aspx?TableName=project_target" Text="الجهه المستهدفه"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="Projects/UIGenericIDName.aspx?TableName=request_org" Text="الجهه الطالبه"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="Projects/UIGenericIDName.aspx?TableName=ProjectRoadType" Text="انواع الطرق"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="Projects/UIGenericIDName.aspx?TableName=ProjectElectricitySource" Text="مصدر الكهرباء"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="Projects/UIGenericIDName.aspx?TableName=ProjectWaterSource" Text="مصدر الماء"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="Projects/UIGenericIDName.aspx?TableName=ProjectOverPlanReason" Text="اسباب الخروج عن الخطه"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="Projects/UIGenericIDName.aspx?TableName=facilities_types" Text="انواع المرافق"></dx:NavBarItem>
+                                <dx:NavBarItem NavigateUrl="Projects/UIGenericIDName.aspx?TableName=unit_of_measure" Text="وحدات القياس"></dx:NavBarItem>
+                            </Items>
+                        </dx:NavBarGroup>
+                    </Groups>
+
+                </dx:ASPxNavBar>
+            </td>
+            <td style="width: 75%;" valign="top">
+                <table width="100%">
+                    <tr>
+                        <td style="width: 25%">
+                            <dx1:ASPxButton ID="ASPxButton_ExportXLSX" runat="server" AutoPostBack="False"
+                                ClientInstanceName="ASPxButton_ExportXLSX" EnableClientSideAPI="True"
+                                Font-Bold="True" Text="تصدير الى اكسل" Width="100%" UseSubmitBehavior="False">
+                                <Image Url="~/Images/Action_Export_ToXLSX.png">
+                                </Image>
+                            </dx1:ASPxButton>
+                        </td>
+                        <td style="width: 25%">&nbsp;</td>
+                        <td style="width: 25%">
+
+                            <dx:ASPxGridViewExporter ID="ASPxGridViewExporter1" runat="server" GridViewID="ASPxGridView1"></dx:ASPxGridViewExporter>
+                        </td>
+                        <td style="width: 25%">&nbsp;</td>
+                    </tr>
+                </table>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+
+    <script type="text/javascript">
+
+        document.onload = Loading();
+
+        function Loading() {
+            var path = window.location.pathname;
+            var page = path.split("/").pop();
+            var isDefault = (page == "MainDataDefault.aspx");
+
+            ASPxButton_ExportXLSX.SetVisible(!isDefault);
+        }
+
+    </script>
+
+</asp:Content>

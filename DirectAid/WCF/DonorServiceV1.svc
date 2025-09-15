@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="DirectAid.DonorServiceV1" CodeBehind="DonorServiceV1.svc.vb" %>

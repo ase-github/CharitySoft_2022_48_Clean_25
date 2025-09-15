@@ -1,0 +1,59 @@
+**** 2025-09-12 12:39:38 AM ****
+Exception Type: System.Web.HttpCompileException
+Exception: C:\Projects\CharitySoft_2022_48_Clean_25\DirectAid\Login.aspx(61): error BC30560: 'ASPxRoundPanel' is ambiguous in the namespace 'DevExpress.Web'.
+Source: DefaultPage
+Stack Trace: 
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+**** 2025-09-12 12:44:18 AM ****
+Exception Type: System.Web.HttpCompileException
+Exception: C:\Projects\CharitySoft_2022_48_Clean_25\DirectAid\Login.aspx(61): error BC30560: 'ASPxRoundPanel' is ambiguous in the namespace 'DevExpress.Web'.
+Source: DefaultPage
+Stack Trace: 
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+**** 2025-09-12 12:48:41 AM ****
+Exception Type: System.Exception
+Exception: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\vs\ef4b37c6\d0898056\App_Web_site.master.cdcab7d2.81eps4sv.0.vb(7105): error BC30668: 'Public Property LoadingPanelText As String' is obsolete: 'Use the SettingsLoadingPanel property instead.'.
+Source: DefaultPage
+
+**** 2025-09-12 12:53:42 AM ****
+Exception Type: System.Exception
+Exception: The 'EditButton' property cannot be set declaratively.
+Source: DefaultPage
+
+**** 2025-09-12 1:11:24 AM ****
+Exception Type: System.Exception
+Exception: The 'RenderMode' property cannot be set declaratively.
+Source: DefaultPage
+
+**** 2025-09-12 1:13:49 AM ****
+Exception Type: System.Exception
+Exception: ‏‏وقع خطأ أثناء تنفيذ تعريف الأمر. راجع الاستثناء الداخلي للاطلاع على التفاصيل.
+Source: DefaultPage
+
+**** 2025-09-12 1:14:40 AM ****
+Exception Type: System.Exception
+Exception: ‏‏وقع خطأ أثناء تنفيذ تعريف الأمر. راجع الاستثناء الداخلي للاطلاع على التفاصيل.
+Source: DefaultPage
+

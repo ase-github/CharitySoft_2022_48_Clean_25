@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BankDiskTable" msprop:Generator_TableClassName="BankDiskTableDataTable" msprop:Generator_TableVarName="tableBankDiskTable" msprop:Generator_RowChangedName="BankDiskTableRowChanged" msprop:Generator_TablePropName="BankDiskTable" msprop:Generator_RowDeletingName="BankDiskTableRowDeleting" msprop:Generator_RowChangingName="BankDiskTableRowChanging" msprop:Generator_RowEvHandlerName="BankDiskTableRowChangeEventHandler" msprop:Generator_RowDeletedName="BankDiskTableRowDeleted" msprop:Generator_RowClassName="BankDiskTableRow" msprop:Generator_UserTableName="BankDiskTable" msprop:Generator_RowEvArgName="BankDiskTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="instruct_date" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columninstruct_date" msprop:Generator_ColumnPropNameInRow="instruct_date" msprop:Generator_ColumnPropNameInTable="instruct_dateColumn" msprop:Generator_UserColumnName="instruct_date" type="xs:anyType" minOccurs="0" />
+              <xs:element name="account_num" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnaccount_num" msprop:Generator_ColumnPropNameInRow="account_num" msprop:Generator_ColumnPropNameInTable="account_numColumn" msprop:Generator_UserColumnName="account_num" type="xs:anyType" minOccurs="0" />
+              <xs:element name="ref_numb" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnref_numb" msprop:Generator_ColumnPropNameInRow="ref_numb" msprop:Generator_ColumnPropNameInTable="ref_numbColumn" msprop:Generator_UserColumnName="ref_numb" type="xs:anyType" minOccurs="0" />
+              <xs:element name="installment_value" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columninstallment_value" msprop:Generator_ColumnPropNameInRow="installment_value" msprop:Generator_ColumnPropNameInTable="installment_valueColumn" msprop:Generator_UserColumnName="installment_value" type="xs:anyType" minOccurs="0" />
+              <xs:element name="reason" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnreason" msprop:Generator_ColumnPropNameInRow="reason" msprop:Generator_ColumnPropNameInTable="reasonColumn" msprop:Generator_UserColumnName="reason" type="xs:anyType" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

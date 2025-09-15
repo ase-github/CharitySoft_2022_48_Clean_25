@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_ReceiptVoucher" targetNamespace="http://tempuri.org/DataSet_ReceiptVoucher.xsd" xmlns:mstns="http://tempuri.org/DataSet_ReceiptVoucher.xsd" xmlns="http://tempuri.org/DataSet_ReceiptVoucher.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="charitysoftConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="charitysoftConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.charitysoftConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Collection_Receipt_ViewTableAdapter" GeneratorDataComponentClassName="Collection_Receipt_ViewTableAdapter" Name="Collection_Receipt_View" UserDataComponentName="Collection_Receipt_ViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="charitysoftConnectionString (Web.config)" DbObjectName="charitysoft.dbo.Collection_Receipt_View" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT    *
+FROM         Collection_Receipt_View</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="reciept_num" DataSetColumn="reciept_num" />
+              <Mapping SourceColumn="reciept_date" DataSetColumn="reciept_date" />
+              <Mapping SourceColumn="total_amount" DataSetColumn="total_amount" />
+              <Mapping SourceColumn="donor_id" DataSetColumn="donor_id" />
+              <Mapping SourceColumn="currency_code" DataSetColumn="currency_code" />
+              <Mapping SourceColumn="line_amount" DataSetColumn="line_amount" />
+              <Mapping SourceColumn="country_code" DataSetColumn="country_code" />
+              <Mapping SourceColumn="donation_code" DataSetColumn="donation_code" />
+              <Mapping SourceColumn="remarks" DataSetColumn="remarks" />
+              <Mapping SourceColumn="print_count" DataSetColumn="print_count" />
+              <Mapping SourceColumn="branch_descar" DataSetColumn="branch_descar" />
+              <Mapping SourceColumn="currency_descrar" DataSetColumn="currency_descrar" />
+              <Mapping SourceColumn="donor_namear" DataSetColumn="donor_namear" />
+              <Mapping SourceColumn="donor_civilid" DataSetColumn="donor_civilid" />
+              <Mapping SourceColumn="primary_phone" DataSetColumn="primary_phone" />
+              <Mapping SourceColumn="phone_2" DataSetColumn="phone_2" />
+              <Mapping SourceColumn="address_text" DataSetColumn="address_text" />
+              <Mapping SourceColumn="street_name" DataSetColumn="street_name" />
+              <Mapping SourceColumn="salut_code" DataSetColumn="salut_code" />
+              <Mapping SourceColumn="donat_to" DataSetColumn="donat_to" />
+              <Mapping SourceColumn="donation_descrar" DataSetColumn="donation_descrar" />
+              <Mapping SourceColumn="NumToWord" DataSetColumn="NumToWord" />
+              <Mapping SourceColumn="nat_descrar" DataSetColumn="nat_descrar" />
+              <Mapping SourceColumn="collect_namear" DataSetColumn="collect_namear" />
+              <Mapping SourceColumn="block_num" DataSetColumn="block_num" />
+              <Mapping SourceColumn="gadda_h" DataSetColumn="gadda_h" />
+              <Mapping SourceColumn="building_num" DataSetColumn="building_num" />
+              <Mapping SourceColumn="unit_num" DataSetColumn="unit_num" />
+              <Mapping SourceColumn="area_codeara" DataSetColumn="area_codeara" />
+              <Mapping SourceColumn="salut_arname" DataSetColumn="salut_arname" />
+              <Mapping SourceColumn="donor_full_name_ar" DataSetColumn="donor_full_name_ar" />
+              <Mapping SourceColumn="num_to_word_ar" DataSetColumn="num_to_word_ar" />
+              <Mapping SourceColumn="qty" DataSetColumn="qty" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_ReceiptVoucher" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_ReceiptVoucher" msprop:Generator_UserDSName="DataSet_ReceiptVoucher">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Collection_Receipt_View" msprop:Generator_TableClassName="Collection_Receipt_ViewDataTable" msprop:Generator_TableVarName="tableCollection_Receipt_View" msprop:Generator_RowChangedName="Collection_Receipt_ViewRowChanged" msprop:Generator_TablePropName="Collection_Receipt_View" msprop:Generator_RowDeletingName="Collection_Receipt_ViewRowDeleting" msprop:Generator_RowChangingName="Collection_Receipt_ViewRowChanging" msprop:Generator_RowEvHandlerName="Collection_Receipt_ViewRowChangeEventHandler" msprop:Generator_RowDeletedName="Collection_Receipt_ViewRowDeleted" msprop:Generator_RowClassName="Collection_Receipt_ViewRow" msprop:Generator_UserTableName="Collection_Receipt_View" msprop:Generator_RowEvArgName="Collection_Receipt_ViewRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="reciept_num" msprop:Generator_ColumnVarNameInTable="columnreciept_num" msprop:Generator_ColumnPropNameInRow="reciept_num" msprop:Generator_ColumnPropNameInTable="reciept_numColumn" msprop:Generator_UserColumnName="reciept_num" type="xs:int" />
+              <xs:element name="reciept_date" msprop:Generator_ColumnVarNameInTable="columnreciept_date" msprop:Generator_ColumnPropNameInRow="reciept_date" msprop:Generator_ColumnPropNameInTable="reciept_dateColumn" msprop:Generator_UserColumnName="reciept_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="total_amount" msprop:Generator_ColumnVarNameInTable="columntotal_amount" msprop:Generator_ColumnPropNameInRow="total_amount" msprop:Generator_ColumnPropNameInTable="total_amountColumn" msprop:Generator_UserColumnName="total_amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="donor_id" msprop:Generator_ColumnVarNameInTable="columndonor_id" msprop:Generator_ColumnPropNameInRow="donor_id" msprop:Generator_ColumnPropNameInTable="donor_idColumn" msprop:Generator_UserColumnName="donor_id" type="xs:int" />
+              <xs:element name="currency_code" msprop:Generator_ColumnVarNameInTable="columncurrency_code" msprop:Generator_ColumnPropNameInRow="currency_code" msprop:Generator_ColumnPropNameInTable="currency_codeColumn" msprop:Generator_UserColumnName="currency_code" type="xs:short" minOccurs="0" />
+              <xs:element name="line_amount" msprop:Generator_ColumnVarNameInTable="columnline_amount" msprop:Generator_ColumnPropNameInRow="line_amount" msprop:Generator_ColumnPropNameInTable="line_amountColumn" msprop:Generator_UserColumnName="line_amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="country_code" msprop:Generator_ColumnVarNameInTable="columncountry_code" msprop:Generator_ColumnPropNameInRow="country_code" msprop:Generator_ColumnPropNameInTable="country_codeColumn" msprop:Generator_UserColumnName="country_code" type="xs:short" />
+              <xs:element name="donation_code" msprop:Generator_ColumnVarNameInTable="columndonation_code" msprop:Generator_ColumnPropNameInRow="donation_code" msprop:Generator_ColumnPropNameInTable="donation_codeColumn" msprop:Generator_UserColumnName="donation_code" type="xs:short" />
+              <xs:element name="remarks" msprop:Generator_ColumnVarNameInTable="columnremarks" msprop:Generator_ColumnPropNameInRow="remarks" msprop:Generator_ColumnPropNameInTable="remarksColumn" msprop:Generator_UserColumnName="remarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="print_count" msprop:Generator_ColumnVarNameInTable="columnprint_count" msprop:Generator_ColumnPropNameInRow="print_count" msprop:Generator_ColumnPropNameInTable="print_countColumn" msprop:Generator_UserColumnName="print_count" type="xs:int" minOccurs="0" />
+              <xs:element name="branch_descar" msprop:Generator_ColumnVarNameInTable="columnbranch_descar" msprop:Generator_ColumnPropNameInRow="branch_descar" msprop:Generator_ColumnPropNameInTable="branch_descarColumn" msprop:Generator_UserColumnName="branch_descar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="currency_descrar" msprop:Generator_ColumnVarNameInTable="columncurrency_descrar" msprop:Generator_ColumnPropNameInRow="currency_descrar" msprop:Generator_ColumnPropNameInTable="currency_descrarColumn" msprop:Generator_UserColumnName="currency_descrar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="donor_namear" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columndonor_namear" msprop:Generator_ColumnPropNameInRow="donor_namear" msprop:Generator_ColumnPropNameInTable="donor_namearColumn" msprop:Generator_UserColumnName="donor_namear" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="333" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="donor_civilid" msprop:Generator_ColumnVarNameInTable="columndonor_civilid" msprop:Generator_ColumnPropNameInRow="donor_civilid" msprop:Generator_ColumnPropNameInTable="donor_civilidColumn" msprop:Generator_UserColumnName="donor_civilid" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="primary_phone" msprop:Generator_ColumnVarNameInTable="columnprimary_phone" msprop:Generator_ColumnPropNameInRow="primary_phone" msprop:Generator_ColumnPropNameInTable="primary_phoneColumn" msprop:Generator_UserColumnName="primary_phone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="phone_2" msprop:Generator_ColumnVarNameInTable="columnphone_2" msprop:Generator_ColumnPropNameInRow="phone_2" msprop:Generator_ColumnPropNameInTable="phone_2Column" msprop:Generator_UserColumnName="phone_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="address_text" msprop:Generator_ColumnVarNameInTable="columnaddress_text" msprop:Generator_ColumnPropNameInRow="address_text" msprop:Generator_ColumnPropNameInTable="address_textColumn" msprop:Generator_UserColumnName="address_text" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="street_name" msprop:Generator_ColumnVarNameInTable="columnstreet_name" msprop:Generator_ColumnPropNameInRow="street_name" msprop:Generator_ColumnPropNameInTable="street_nameColumn" msprop:Generator_UserColumnName="street_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="salut_code" msprop:Generator_ColumnVarNameInTable="columnsalut_code" msprop:Generator_ColumnPropNameInRow="salut_code" msprop:Generator_ColumnPropNameInTable="salut_codeColumn" msprop:Generator_UserColumnName="salut_code" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="donat_to" msprop:Generator_ColumnVarNameInTable="columndonat_to" msprop:Generator_ColumnPropNameInRow="donat_to" msprop:Generator_ColumnPropNameInTable="donat_toColumn" msprop:Generator_UserColumnName="donat_to" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="donation_descrar" msprop:Generator_ColumnVarNameInTable="columndonation_descrar" msprop:Generator_ColumnPropNameInRow="donation_descrar" msprop:Generator_ColumnPropNameInTable="donation_descrarColumn" msprop:Generator_UserColumnName="donation_descrar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NumToWord" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNumToWord" msprop:Generator_ColumnPropNameInRow="NumToWord" msprop:Generator_ColumnPropNameInTable="NumToWordColumn" msprop:Generator_UserColumnName="NumToWord" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nat_descrar" msprop:Generator_ColumnVarNameInTable="columnnat_descrar" msprop:Generator_ColumnPropNameInRow="nat_descrar" msprop:Generator_ColumnPropNameInTable="nat_descrarColumn" msprop:Generator_UserColumnName="nat_descrar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="collect_namear" msprop:Generator_ColumnVarNameInTable="columncollect_namear" msprop:Generator_ColumnPropNameInRow="collect_namear" msprop:Generator_ColumnPropNameInTable="collect_namearColumn" msprop:Generator_UserColumnName="collect_namear" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="block_num" msprop:Generator_ColumnVarNameInTable="columnblock_num" msprop:Generator_ColumnPropNameInRow="block_num" msprop:Generator_ColumnPropNameInTable="block_numColumn" msprop:Generator_UserColumnName="block_num" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="gadda_h" msprop:Generator_ColumnVarNameInTable="columngadda_h" msprop:Generator_ColumnPropNameInRow="gadda_h" msprop:Generator_ColumnPropNameInTable="gadda_hColumn" msprop:Generator_UserColumnName="gadda_h" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="building_num" msprop:Generator_ColumnVarNameInTable="columnbuilding_num" msprop:Generator_ColumnPropNameInRow="building_num" msprop:Generator_ColumnPropNameInTable="building_numColumn" msprop:Generator_UserColumnName="building_num" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="unit_num" msprop:Generator_ColumnVarNameInTable="columnunit_num" msprop:Generator_ColumnPropNameInRow="unit_num" msprop:Generator_ColumnPropNameInTable="unit_numColumn" msprop:Generator_UserColumnName="unit_num" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="area_codeara" msprop:Generator_ColumnVarNameInTable="columnarea_codeara" msprop:Generator_ColumnPropNameInRow="area_codeara" msprop:Generator_ColumnPropNameInTable="area_codearaColumn" msprop:Generator_UserColumnName="area_codeara" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="salut_arname" msprop:Generator_ColumnVarNameInTable="columnsalut_arname" msprop:Generator_ColumnPropNameInRow="salut_arname" msprop:Generator_ColumnPropNameInTable="salut_arnameColumn" msprop:Generator_UserColumnName="salut_arname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="donor_full_name_ar" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columndonor_full_name_ar" msprop:Generator_ColumnPropNameInRow="donor_full_name_ar" msprop:Generator_ColumnPropNameInTable="donor_full_name_arColumn" msprop:Generator_UserColumnName="donor_full_name_ar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="223" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="num_to_word_ar" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnnum_to_word_ar" msprop:Generator_ColumnPropNameInRow="num_to_word_ar" msprop:Generator_ColumnPropNameInTable="num_to_word_arColumn" msprop:Generator_UserColumnName="num_to_word_ar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1031" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qty" msprop:Generator_ColumnVarNameInTable="columnqty" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_UserColumnName="qty" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Collection_Receipt_View" />
+      <xs:field xpath="mstns:reciept_num" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
